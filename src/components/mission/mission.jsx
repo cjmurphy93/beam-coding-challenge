@@ -14,7 +14,8 @@ const Mission = () => {
   return (
     <section>
       {/* <video src=""></video> */}
-      {video?.html}
+      {/* {video?.html} */}
+      <div dangerouslySetInnerHTML={{ __html: `${video?.html}` }} />
     </section>
   );
 };
