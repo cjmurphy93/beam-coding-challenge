@@ -1,5 +1,6 @@
 import NavBar from "./components/nav_bar/nav_bar";
 import Mission from "./components/mission/mission";
+import Leadership from "./components/leadership/leadership";
 // import "./App.scss";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <NavBar />
       <Mission />
+      <Leadership />
     </div>
   );
 }
