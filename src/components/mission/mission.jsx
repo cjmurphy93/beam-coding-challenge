@@ -13,8 +13,7 @@ const Mission = () => {
 
   return (
     <section>
-      {/* <video src=""></video> */}
-      {/* {video?.html} */}
+      {/* maybe use react-html-parser */}
       <div dangerouslySetInnerHTML={{ __html: `${video?.html}` }} />
     </section>
   );
