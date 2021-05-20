@@ -20,7 +20,12 @@ const Leadership = () => {
 
       <div className="leadership-grid">
         {leadership?.map((leader) => (
-          <a href={leader.url} className="leader-rectangle">
+          <a
+            href={leader.url}
+            className="leader-profile"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={leader.image} alt={leader.name} />
             <h3 className="leader-name">{leader.name}</h3>
             <h4 className="leader-title">{leader.title}</h4>
