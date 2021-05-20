@@ -1,0 +1,113 @@
+.mission {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(/images/GradientBG.svg);
+  //   background-size: cover;
+  //   background-size: 100% 100%;
+  // background: url(/static/media/GradientBG.fa0912c8.svg);
+  //   background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.top-title {
+  //   font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 66px;
+  letter-spacing: 0em;
+  text-align: center;
+  //   text-align: left;
+  color: #ffffff;
+  max-width: 710px;
+}
+
+// .video-container {
+//   //   position: relative;
+//   //   padding-bottom: 56.25%;
+//   //   height: 0;
+//   //   max-width: 710px;
+
+//   position: relative;
+//   padding-bottom: 56.25%;
+//   padding-top: 35px;
+//   height: 0;
+//   overflow: hidden;
+// }
+
+// .video-container iframe,
+// .video-container object,
+// .video-container embed {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+// }
+
+// iframe {
+//   width: 710px;
+// }
+
+.brush {
+  //    height: 316.0000097367008px;
+  // width: 60.00000184874065px;
+  // left: 188.0888671875px;
+  // top: 789px;
+  // border-radius: 0px;
+
+  position: absolute;
+  width: 60px;
+  height: 316px;
+  left: 60px;
+  //   left: 188.09px;
+  //   right: 45px;
+  top: 789px;
+  transform: rotate(47.53deg);
+}
+
+.mission-title {
+  //   font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 66px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #444444;
+}
+
+.blue-bar {
+  width: 40px;
+  height: 5px;
+  background: #01c9f0;
+}
+
+.mission-statement {
+  //   font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  max-width: 710px;
+}
+
+.glasses {
+  position: absolute;
+  //   left: 85.52%;
+  //   right: -13.99%;
+  //   top: 35.25%;
+  //   bottom: 57.04%;
+
+  height: 242.9442112519445px;
+  width: 409.99999558643685px;
+  left: 1231.5057678222656px;
+  top: 1111px;
+  border-radius: 0px;
+
+  transform: rotate(7deg);
+}
