@@ -48,6 +48,10 @@ footer {
     text-align: left;
     text-decoration: none;
     color: #666666;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 
