@@ -8,21 +8,34 @@
 
 .investors__list {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   list-style-type: none;
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
   //   max-width: 710px;
+  max-width: 400px;
   margin-bottom: 123px;
-  padding: 0 80px;
+  padding-left: 0;
 
   li {
-    margin-left: 38px;
     margin-top: 80px;
-    &:first-child {
-      margin-left: 0;
+  }
+}
+
+@media (min-width: 41em) {
+  .investors__list {
+    padding: 0 80px;
+    flex-direction: row;
+    max-width: 1440px;
+
+    li {
+      margin-left: 38px;
+      margin-top: 80px;
+      &:first-child {
+        margin-left: 0;
+      }
     }
   }
 }

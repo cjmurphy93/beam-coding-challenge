@@ -4,7 +4,7 @@ header {
     padding: 1em;
     display: flex;
     position: relative;
-    background-color: white;
+    background-color: #ffffff;
     z-index: 2;
 
     .logo__link {
@@ -40,6 +40,7 @@ nav {
 
 .nav__logo {
   width: auto;
+  max-height: 56px;
 }
 
 .nav__right {
@@ -152,8 +153,10 @@ nav {
   text-align: right;
 }
 
-.bars {
-  padding-right: 5em;
+@media (max-width: 500px) {
+  nav {
+    display: none;
+  }
 }
 
 @media (min-width: 60em) {
@@ -222,6 +225,9 @@ nav {
       }
     }
   }
+  .bars {
+    padding-right: 5em;
+  }
 }
 
 @media (min-width: 30em) {
@@ -230,6 +236,10 @@ nav {
       padding: 1em 5em;
       padding-right: 0;
     }
+  }
+
+  .bars {
+    padding-right: 3em;
   }
 }
 

@@ -24,6 +24,7 @@ const Leadership = () => {
             className="leader-profile"
             target="_blank"
             rel="noopener noreferrer"
+            key={leader.name}
           >
             <img src={leader.image} alt={leader.name} />
             <h3 className="leader-name">{leader.name}</h3>
