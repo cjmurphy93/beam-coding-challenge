@@ -89,7 +89,13 @@
   height: 12em;
 }
 
-@media (max-width: 41em) {
+.vp {
+  width: 100%;
+  height: auto;
+  margin-bottom: 55px;
+}
+
+@media (max-width: 43em) {
   .video-container {
     display: none;
   }
@@ -103,6 +109,10 @@
 
   .mission-statement {
     padding: 0;
+  }
+
+  .vp {
+    display: none;
   }
 }
 

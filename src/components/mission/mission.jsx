@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import brush2 from "../../images/brush2.png";
 import glasses2 from "../../images/glasses2.png";
+import VideoPlayer from "../../images/VideoPlayer.svg";
 import "./mission.scss";
 
 const Mission = () => {
@@ -24,6 +25,7 @@ const Mission = () => {
         dangerouslySetInnerHTML={{ __html: `${video?.html}` }}
         className="video-container"
       />
+      <img src={VideoPlayer} alt="Player" className="vp" />
       <img src={brush2} alt="Beam Brush" className="brush" />
       <h1 className="section-title">Our Mission &amp; Vision</h1>
       <div className="title-bar" />
