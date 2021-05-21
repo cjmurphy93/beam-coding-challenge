@@ -4,6 +4,12 @@
 
 This is my submission for the Engineering Internship Kata! It was a lot of fun and I was even able to learn some new things to put on my toolbelt. I tried to be as efficient with my time as possible and made decisions based on that. There is more that I would want to do if I didn't follow the reccomended time as closely as possible.
 
+To start, run:
+
+```shell
+npm start
+```
+
 ## Decision Log
 
 - Overall:
@@ -11,10 +17,16 @@ This is my submission for the Engineering Internship Kata! It was a lot of fun a
   - I decided to use React as my framework. I know that Beam uses it and I know it pretty well. The components and abstraction make it cleaner than most other options and if I decided to develop this project further the virtual Dom would be excellent for adding more features.
   - create-react-app was used to quickly set up the framework.
   - I used as much semantic HTML as possible to make it clearer and deliberate.
-    -I adhered to the mockup as closely as possible. In the interest of time, I built the app from the desktop site emulating the kata first and worked on responsiveness as I went, usually after building a component or towards the end of the project. Normally I would want to start with the mobile design and build up from there.
-    -I also started out utilizing px in css to quickly match the mockup and adjusted to em later in most cases. This helps with browser compatability and can potentially have a great effect on the responsive design. This was my first experience with figma and if I use it again I will most likely convert to em from the start.
-    -The Roboto font was taken from the Google Fonts api and embeded in the head to match the correct font.
-    -In all cases except the toothbrush and glasses, svg's were used because of their lightweight and excellent scalability.
+  - I adhered to the mockup as closely as possible. In the interest of time, I built the app from the desktop site emulating the kata first and worked on responsiveness as I went, usually after building a component or towards the end of the project. Normally I would want to start with the mobile design and build up from there.
+  - I also started out utilizing px in css to quickly match the mockup and adjusted to em later in most cases. This helps with browser compatability and can potentially have a great effect on the responsive design. This was my first experience with figma and if I use it again I will most likely convert to em from the start.
+  - The Roboto font was taken from the Google Fonts api and embeded in the head to match the correct font.
+  - In all cases except the toothbrush and glasses, svg's were used because of their lightweight and excellent scalability.
+
+- Breakpoints:
+
+  - As far as for breakpoints, I addressed certain parts individually. This was mainly because I was working "backwards" from the desktop to mobile. I would most likely have less breakpoints if done in the opposite way.
+  - I used Chrome developer tools a lot to emulate the layout of a phone to see how they looked.
+  - As far as general breakpoints go, I looked up popular phone screens and worked out how breakpoints for individual parts would work with them.
 
 - Nav-bar:
 
@@ -51,7 +63,7 @@ This is my submission for the Engineering Internship Kata! It was a lot of fun a
   - I did change some things with the padding on the smaller screen breakpoints. I didn't like how squished together they looked, and I also think it looks a little off if the sublists are aligned to the left instead of center.
   - There is an 'a' where an 'an' should be, but I left it out of solidarity of the mockup. Don't worry, it's correct on the website!
 
-# Kata
+# Original Kata
 
 Beam is an exciting company, founded on the idea that everyone deserves access to dental care. As such, we want to share this vision in a presentable and exciting way!
 This kata involves bringing a marketing site from a mock up to reality.
