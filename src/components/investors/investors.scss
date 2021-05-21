@@ -1,0 +1,27 @@
+.investors {
+  display: flex;
+  flex-direction: column;
+  background: #f4f4f4;
+  align-items: center;
+}
+
+.investors__list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  //   max-width: 710px;
+  margin-bottom: 123px;
+  padding: 0 80px;
+
+  li {
+    margin-left: 38px;
+    margin-top: 80px;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}

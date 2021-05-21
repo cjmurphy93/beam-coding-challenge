@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./leadership.scss";
-import "../mission/mission.scss";
 
 const Leadership = () => {
   const [leadership, setLeadership] = useState(null);
@@ -15,8 +14,8 @@ const Leadership = () => {
 
   return (
     <section className="leadership">
-      <h1 className="mission-title">Our Leadership Team</h1>
-      <div className="blue-bar" />
+      <h1 className="section-title">Our Leadership Team</h1>
+      <div className="title-bar" />
 
       <div className="leadership-grid">
         {leadership?.map((leader) => (

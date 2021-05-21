@@ -25,8 +25,8 @@ const Mission = () => {
         className="video-container"
       />
       <img src={brush2} alt="Beam Brush" className="brush" />
-      <h1 className="mission-title">Our Mission &amp; Vision</h1>
-      <div className="blue-bar" />
+      <h1 className="section-title">Our Mission &amp; Vision</h1>
+      <div className="title-bar" />
       <p className="mission-statement">
         Beam Dental was founded on the idea that everyone deserves access to
         dental care, centering our mission around closing the gap of the 100
