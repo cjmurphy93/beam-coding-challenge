@@ -25,7 +25,7 @@ nav {
   //   align-items: center;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1em;
   line-height: 19px;
   //   color: #666666;
 
@@ -147,6 +147,15 @@ nav {
   }
 }
 
+.bars_container {
+  width: 50%;
+  text-align: right;
+}
+
+.bars {
+  padding-right: 5em;
+}
+
 @media (min-width: 60em) {
   header {
     max-width: 80em;
@@ -157,6 +166,10 @@ nav {
       display: block;
       padding: 1em;
       padding-left: 5em;
+    }
+
+    .bars_container {
+      display: none;
     }
 
     nav {

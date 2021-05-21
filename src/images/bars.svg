@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="16px" viewBox="0 0 28 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Nav" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Min-Mobile-menu" transform="translate(-190.000000, -35.000000)" fill="#00C9F0">
+            <g id="Header" transform="translate(-10.000000, 0.000000)">
+                <g id="Close-Copy" transform="translate(200.000000, 17.000000)">
+                    <g id="Group-3" transform="translate(0.000000, 18.431906)">
+                        <path d="M1.57833555,3 C0.800593142,3 0.164244307,2.32505569 0.164244307,1.50004125 C0.164244307,0.675026813 0.800593142,0 1.57833555,0 L26.3246989,0 C27.1024413,0 27.7387124,0.675026813 27.7387124,1.50004125 C27.7387124,2.32505569 27.1024413,3 26.3246989,3 L1.57833555,3 Z" id="Fill-1" transform="translate(13.951478, 1.500000) rotate(180.000000) translate(-13.951478, -1.500000) "></path>
+                        <path d="M1.41409124,15.5680937 C0.636348835,15.5680937 3.37507799e-14,14.8931494 3.37507799e-14,14.068135 C3.37507799e-14,13.2431205 0.636348835,12.5680937 1.41409124,12.5680937 L26.1604546,12.5680937 C26.938197,12.5680937 27.5744681,13.2431205 27.5744681,14.068135 C27.5744681,14.8931494 26.938197,15.5680937 26.1604546,15.5680937 L1.41409124,15.5680937 Z" id="Fill-1" transform="translate(13.787234, 14.068094) rotate(180.000000) translate(-13.787234, -14.068094) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

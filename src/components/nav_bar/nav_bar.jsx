@@ -1,5 +1,6 @@
 import logo from "../../images/logo.svg";
 import Arrow from "../../images/Arrow.svg";
+import bars from "../../images/bars.svg";
 import "./nav_bar.scss";
 
 const NavBar = () => {
@@ -8,6 +9,9 @@ const NavBar = () => {
       <div className="logo__container">
         <a href="/" className="logo__link">
           <img src={logo} className="nav__logo" alt="logo" />
+        </a>
+        <a href="/" className="bars_container">
+          <img src={bars} alt="Open" className="bars" />
         </a>
       </div>
 

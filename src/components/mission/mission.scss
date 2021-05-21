@@ -8,12 +8,16 @@
   //   background-size: 100%;
   background-repeat: no-repeat;
   background-position: top;
-  margin-bottom: 56px;
+  margin-bottom: 3.5em;
+  //   background-repeat: no-repeat;
+  //   background-size: 100% auto;
+  //   background-position: center top;
+  //   background-attachment: fixed;
 }
 
 .top-title {
   font-family: Roboto;
-  font-size: 56px;
+  font-size: 3.5em;
   font-style: normal;
   font-weight: 300;
   line-height: 66px;
@@ -22,6 +26,7 @@
   //   text-align: left;
   color: #ffffff;
   max-width: 710px;
+  margin-top: 55px;
 }
 
 // .video-container {
@@ -56,25 +61,13 @@
 }
 
 .brush {
-  //    height: 316.0000097367008px;
-  // width: 60.00000184874065px;
-  // left: 188.0888671875px;
-  // top: 789px;
-  // border-radius: 0px;
-
-  position: absolute;
-  width: 60px;
-  height: 316px;
-  left: 60px;
-  //   left: 188.09px;
-  //   right: 45px;
-  top: 789px;
-  transform: rotate(47.53deg);
+  position: relative;
+  height: 19.75em;
 }
 
 .mission-statement {
   font-family: Roboto;
-  font-size: 24px;
+  font-size: 1.5em;
   font-style: normal;
   font-weight: 300;
   line-height: 28px;
@@ -90,18 +83,59 @@
 }
 
 .glasses {
-  position: absolute;
-  left: 85.52%;
-  right: -13.99%;
-  //   top: 88.95%;
-  //   top: 35.25%;
-  //   bottom: 57.04%;
+  position: relative;
+  height: 15em;
+}
 
-  height: 242.9442112519445px;
-  width: 409.99999558643685px;
-  //   left: 1231.5057678222656px;
-  top: 1111px;
-  border-radius: 0px;
+@media (max-width: 43em) {
+  .top-title {
+    font-size: 2.5em;
+    padding: 0 0.5em;
+  }
 
-  transform: rotate(7deg);
+  .mission-statement {
+    padding: 0 0.5em;
+  }
+}
+
+@media (min-width: 70em) {
+  .brush {
+    //    height: 316.0000097367008px;
+    // width: 60.00000184874065px;
+    // left: 188.0888671875px;
+    // top: 789px;
+    // border-radius: 0px;
+
+    position: absolute;
+    width: 60px;
+    // height: 316px;
+    left: 60px;
+    //   left: 188.09px;
+    //   right: 45px;
+    top: 789px;
+    transform: rotate(47.53deg);
+  }
+
+  .glasses {
+    position: absolute;
+    left: 85.52%;
+    right: -13.99%;
+    //   top: 88.95%;
+    //   top: 35.25%;
+    //   bottom: 57.04%;
+
+    height: 242.9442112519445px;
+    width: 409.99999558643685px;
+    //   left: 1231.505767822263.5em;
+    top: 1111px;
+    border-radius: 0px;
+
+    transform: rotate(7deg);
+  }
+}
+
+@media (min-width: 90em) {
+  .mission {
+    background-size: 100%;
+  }
 }
