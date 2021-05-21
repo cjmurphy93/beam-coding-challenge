@@ -3,16 +3,9 @@
   flex-direction: column;
   align-items: center;
   background: url(/images/GradientBG.svg);
-  //   background-size: cover;
-  //   background-size: 100% 100%;
-  //   background-size: 100%;
   background-repeat: no-repeat;
   background-position: top;
   margin-bottom: 3.5em;
-  //   background-repeat: no-repeat;
-  //   background-size: 100% auto;
-  //   background-position: center top;
-  //   background-attachment: fixed;
 }
 
 .top-title {
@@ -31,11 +24,6 @@
 }
 
 // .video-container {
-//   //   position: relative;
-//   //   padding-bottom: 56.25%;
-//   //   height: 0;
-//   //   max-width: 710px;
-
 //   position: relative;
 //   padding-bottom: 56.25%;
 //   padding-top: 35px;
@@ -53,9 +41,6 @@
 //   height: 100%;
 // }
 
-// iframe {
-//   width: 710px;
-// }
 
 .video-container {
   margin-bottom: 55px;
@@ -95,10 +80,6 @@
   margin-bottom: 55px;
 }
 
-// iframe {
-//   width: 100%;
-//   height: auto;
-// }
 
 @media (max-width: 43em) {
   .video-container {
@@ -123,18 +104,9 @@
 
 @media (min-width: 70em) {
   .brush {
-    //    height: 316.0000097367008px;
-    // width: 60.00000184874065px;
-    // left: 188.0888671875px;
-    // top: 789px;
-    // border-radius: 0px;
-
     position: absolute;
     width: 60px;
-    // height: 316px;
     left: 60px;
-    //   left: 188.09px;
-    //   right: 45px;
     top: 789px;
     transform: rotate(47.53deg);
   }
@@ -143,16 +115,10 @@
     position: absolute;
     left: 85.52%;
     right: -13.99%;
-    //   top: 88.95%;
-    //   top: 35.25%;
-    //   bottom: 57.04%;
-
     height: 242.9442112519445px;
     width: 409.99999558643685px;
-    //   left: 1231.505767822263.5em;
     top: 1111px;
     border-radius: 0px;
-
     transform: rotate(7deg);
   }
 }

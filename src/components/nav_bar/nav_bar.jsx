@@ -16,7 +16,7 @@ const NavBar = () => {
       </div>
 
       <nav className="nav">
-        {/* <div className="nav__right"> */}
+  
         <ul className="nav__links">
           <li className="nav__link">
             <a href="/">
@@ -51,7 +51,7 @@ const NavBar = () => {
             </ul>
           </li>
         </ul>
-        {/* </div> */}
+    
       </nav>
     </header>
   );
