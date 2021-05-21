@@ -5,14 +5,14 @@
   background: url(/images/GradientBG.svg);
   //   background-size: cover;
   //   background-size: 100% 100%;
-  // background: url(/static/media/GradientBG.fa0912c8.svg);
   //   background-size: 100%;
   background-repeat: no-repeat;
   background-position: top;
+  margin-bottom: 56px;
 }
 
 .top-title {
-  //   font-family: Roboto;
+  font-family: Roboto;
   font-size: 56px;
   font-style: normal;
   font-weight: 300;
@@ -51,6 +51,10 @@
 //   width: 710px;
 // }
 
+.video-container {
+  margin-bottom: 55px;
+}
+
 .brush {
   //    height: 316.0000097367008px;
   // width: 60.00000184874065px;
@@ -69,7 +73,7 @@
 }
 
 .mission-statement {
-  //   font-family: Roboto;
+  font-family: Roboto;
   font-size: 24px;
   font-style: normal;
   font-weight: 300;
@@ -77,18 +81,25 @@
   letter-spacing: 0em;
   text-align: center;
   max-width: 710px;
+  margin-top: 32px;
+  margin-bottom: 28px;
+}
+
+.ms2 {
+  margin: 0;
 }
 
 .glasses {
   position: absolute;
-  //   left: 85.52%;
-  //   right: -13.99%;
+  left: 85.52%;
+  right: -13.99%;
+  //   top: 88.95%;
   //   top: 35.25%;
   //   bottom: 57.04%;
 
   height: 242.9442112519445px;
   width: 409.99999558643685px;
-  left: 1231.5057678222656px;
+  //   left: 1231.5057678222656px;
   top: 1111px;
   border-radius: 0px;
 

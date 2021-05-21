@@ -4,11 +4,11 @@ import "./footer.scss";
 const Footer = () => {
   return (
     <footer>
-      <ul className="footer__list">
-        <li>
+      <ul className="footer__lists">
+        <li className="footer__list">
           <img src={footerLogo} alt="Footer Logo" />
         </li>
-        <li>
+        <li className="footer__list">
           <h3 className="footer__list__title">Explore</h3>
           <ul className="footer__list__sub-list">
             <li>
@@ -25,7 +25,7 @@ const Footer = () => {
             </li>
           </ul>
         </li>
-        <li>
+        <li className="footer__list">
           <h3 className="footer__list__title">Learn</h3>
           <ul className="footer__list__sub-list">
             <li>
@@ -39,7 +39,7 @@ const Footer = () => {
             </li>
           </ul>
         </li>
-        <li>
+        <li className="footer__list">
           <h3 className="footer__list__title">Company</h3>
           <ul className="footer__list__sub-list">
             <li>
@@ -56,7 +56,7 @@ const Footer = () => {
             </li>
           </ul>
         </li>
-        <li>
+        <li className="footer__list">
           <h3 className="footer__list__title">Resources</h3>
           <ul className="footer__list__sub-list">
             <li>
@@ -73,7 +73,7 @@ const Footer = () => {
             </li>
           </ul>
         </li>
-        <li>
+        <li className="footer__list">
           <h3 className="footer__list__title">Connect</h3>
           <ul className="footer__list__sub-list">
             <li>

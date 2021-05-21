@@ -27,7 +27,7 @@ const Mission = () => {
       <img src={brush2} alt="Beam Brush" className="brush" />
       <h1 className="section-title">Our Mission &amp; Vision</h1>
       <div className="title-bar" />
-      <p className="mission-statement">
+      <p className="mission-statement ms1">
         Beam Dental was founded on the idea that everyone deserves access to
         dental care, centering our mission around closing the gap of the 100
         million Americans who don't. By blending innovative technology with
@@ -35,7 +35,7 @@ const Mission = () => {
         value to the employee benefits market—both disrupting insurance forever
         and delivering on our mission.{" "}
       </p>
-      <p className="mission-statement">
+      <p className="mission-statement ms2">
         {" "}
         Beam’s vision is to deliver a fundamentally unique approach to coverage
         by incorporating dental hygiene behavior into policy pricing at renewal.

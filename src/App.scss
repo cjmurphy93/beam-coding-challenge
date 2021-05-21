@@ -1,5 +1,9 @@
+.App {
+  overflow-x: hidden;
+}
+
 .section-title {
-  //   font-family: Roboto;
+  font-family: Roboto;
   font-size: 56px;
   font-style: normal;
   font-weight: 300;
@@ -7,6 +11,8 @@
   letter-spacing: 0em;
   text-align: center;
   color: #444444;
+  margin-bottom: 21px;
+  margin-top: 0;
 }
 
 .title-bar {
