@@ -1,8 +1,8 @@
-import "./investors.scss";
 import driveCapital from "../../images/driveCapital.svg";
 import LACV from "../../images/LACV.svg";
 import kleinerPerkins from "../../images/kleinerPerkins.svg";
 import georgianPartners from "../../images/georgianPartners.svg";
+import "./investors.scss";
 
 const Investors = () => {
   return (
