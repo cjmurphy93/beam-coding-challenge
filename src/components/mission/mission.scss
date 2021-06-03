@@ -41,7 +41,6 @@
 //   height: 100%;
 // }
 
-
 .video-container {
   margin-bottom: 55px;
 }
@@ -80,7 +79,6 @@
   margin-bottom: 55px;
 }
 
-
 @media (max-width: 43em) {
   .video-container {
     display: none;
@@ -108,6 +106,8 @@
     width: 60px;
     left: 60px;
     top: 789px;
+    transition: all 0.3s ease-in-out;
+    transform: rotate3d(0, 0, 0, 0deg);
     transform: rotate(47.53deg);
   }
 
