@@ -6,6 +6,7 @@
   background-repeat: no-repeat;
   background-position: top;
   margin-bottom: 3.5em;
+  transition: all 0.3s ease-in-out;
 }
 
 .top-title {
@@ -48,6 +49,7 @@
 .brush {
   position: relative;
   height: 19.75em;
+  transition: all 0.3s ease-in-out;
 }
 
 .mission-statement {
@@ -71,6 +73,7 @@
 .glasses {
   position: relative;
   height: 12em;
+  transition: transform 0.3s ease-in-out;
 }
 
 .vp {
@@ -107,7 +110,6 @@
     left: 60px;
     top: 789px;
     transition: all 0.3s ease-in-out;
-    transform: rotate3d(0, 0, 0, 0deg);
     transform: rotate(47.53deg);
   }
 
@@ -119,6 +121,7 @@
     width: 409.99999558643685px;
     top: 1111px;
     border-radius: 0px;
+    transition: all 0.3s ease-in-out;
     transform: rotate(7deg);
   }
 }
@@ -126,5 +129,6 @@
 @media (min-width: 90em) {
   .mission {
     background-size: 100%;
+    transition: all 0.3s ease-in-out;
   }
 }
