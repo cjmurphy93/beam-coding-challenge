@@ -16,13 +16,26 @@ const NavBar = () => {
       </div>
 
       <nav className="nav">
-  
         <ul className="nav__links">
           <li className="nav__link">
             <a href="/">
               Explore
               <img src={Arrow} alt="arrow" />
             </a>
+            <ul className="nav__link__list">
+              <li>
+                <a href="/">I'm a Broker</a>
+              </li>
+              <li>
+                <a href="/">I'm a Member</a>
+              </li>
+              <li>
+                <a href="/">I'm an Employer</a>
+              </li>
+              <li>
+                <a href="/">I'm a Provider</a>
+              </li>
+            </ul>
           </li>
           <li className="nav__link">
             <a href="/">
@@ -51,7 +64,6 @@ const NavBar = () => {
             </ul>
           </li>
         </ul>
-    
       </nav>
     </header>
   );
