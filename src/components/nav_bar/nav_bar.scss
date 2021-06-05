@@ -199,6 +199,27 @@ nav {
               position: relative;
             }
           }
+
+          .nav__link__list {
+            display: block;
+            position: absolute;
+            background-color: white;
+            border-radius: 1em;
+            box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2);
+            padding: 0.5em 1em;
+            min-width: 9em;
+            z-index: 2;
+            border-top: 1px solid rgba(0, 0, 0, 0.05);
+            top: 2em;
+            right: -3px;
+
+            li {
+              list-style: none;
+              padding: 0.5em 0;
+              text-align: left;
+              display: list-item;
+            }
+          }
         }
       }
     }
