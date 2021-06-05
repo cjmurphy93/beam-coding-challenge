@@ -42,12 +42,40 @@ const NavBar = () => {
               Company
               <img src={Arrow} alt="arrow" />
             </a>
+            <ul className="nav__link__list">
+              <li>
+                <a href="/">About</a>
+              </li>
+              <li>
+                <a href="/">Press</a>
+              </li>
+              <li>
+                <a href="/">Careers</a>
+              </li>
+            </ul>
           </li>
           <li className="nav__link">
             <a href="/">
               Resources
               <img src={Arrow} alt="arrow" />
             </a>
+            <ul className="nav__link__list">
+              <li>
+                <a href="/">Shop</a>
+              </li>
+              <li>
+                <a href="/">Claims</a>
+              </li>
+              <li>
+                <a href="/">FAQs</a>
+              </li>
+              <li>
+                <a href="/">Blog</a>
+              </li>
+              <li>
+                <a href="/">Help</a>
+              </li>
+            </ul>
           </li>
           <li>
             <ul className="nav__buttons">
