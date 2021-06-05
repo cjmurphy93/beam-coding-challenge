@@ -218,6 +218,13 @@ nav {
               padding: 0.5em 0;
               text-align: left;
               display: list-item;
+
+              a {
+                text-align: left;
+                color: #666666;
+                font-size: 1em;
+                font-weight: 100;
+              }
             }
           }
         }
