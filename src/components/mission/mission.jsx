@@ -5,26 +5,11 @@ import VideoPlayer from "../../images/VideoPlayer.svg";
 import "./mission.scss";
 
 const Mission = () => {
-  const [video, setVideo] = useState(null);
-
-  const fetchURL =
-    "https://vimeo.com/api/oembed.json?url=https://vimeo.com/327864855";
-  const getVideo = () => fetch(`${fetchURL}`).then((res) => res.json());
-
-  useEffect(() => {
-    getVideo().then((video) => setVideo(video));
-  }, []);
-
   return (
     <section className="mission">
       <h1 className="top-title">
         Dental benefits that reward you for brushing your teeth.
       </h1>
-      {/* maybe use react-html-parser */}
-      {/* <div
-        dangerouslySetInnerHTML={{ __html: `${video?.html}` }}
-        className="video-container"
-      /> */}
       <iframe
         src="https://player.vimeo.com/video/327864855?app_id=122963"
         width="640"
@@ -34,16 +19,6 @@ const Mission = () => {
         allowfullscreen=""
         title="Beam: Smarter Dental Care"
       ></iframe>
-      {/* <iframe
-        src={`https://player.vimeo.com/video/327864855`}
-        title="beam video"
-        frameBorder="0"
-      ></iframe> */}
-      {/* <iframe
-        src={`https://player.vimeo.com/video/${video?.video_id}`}
-        title="beam video"
-        frameBorder="0"
-      ></iframe> */}
       <img src={VideoPlayer} alt="Player" className="vp" />
       <img src={brush2} alt="Beam Brush" className="brush" />
       <h1 className="section-title">Our Mission &amp; Vision</h1>
