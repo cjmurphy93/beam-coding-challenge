@@ -25,13 +25,11 @@ const Mission = () => {
         dangerouslySetInnerHTML={{ __html: `${video?.html}` }}
         className="video-container"
       /> */}
-      <div>{}</div>
       <iframe
         src={`https://player.vimeo.com/video/${video?.video_id}`}
         title="beam video"
         frameBorder="0"
       ></iframe>
-      <iframe src="https://vimeo.com/327864855" title="beam video"></iframe>
       <img src={VideoPlayer} alt="Player" className="vp" />
       <img src={brush2} alt="Beam Brush" className="brush" />
       <h1 className="section-title">Our Mission &amp; Vision</h1>
