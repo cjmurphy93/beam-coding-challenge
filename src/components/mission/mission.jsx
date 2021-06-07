@@ -26,10 +26,24 @@ const Mission = () => {
         className="video-container"
       /> */}
       <iframe
+        src="https://player.vimeo.com/video/327864855?app_id=122963"
+        width="640"
+        height="360"
+        frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowfullscreen=""
+        title="Beam: Smarter Dental Care"
+      ></iframe>
+      {/* <iframe
+        src={`https://player.vimeo.com/video/327864855`}
+        title="beam video"
+        frameBorder="0"
+      ></iframe> */}
+      {/* <iframe
         src={`https://player.vimeo.com/video/${video?.video_id}`}
         title="beam video"
         frameBorder="0"
-      ></iframe>
+      ></iframe> */}
       <img src={VideoPlayer} alt="Player" className="vp" />
       <img src={brush2} alt="Beam Brush" className="brush" />
       <h1 className="section-title">Our Mission &amp; Vision</h1>
