@@ -1,9 +1,33 @@
+import React, { useState, useRef } from "react";
 import logo from "../../images/logo.svg";
 import Arrow from "../../images/Arrow.svg";
 import bars from "../../images/bars.svg";
 import "./nav_bar.scss";
 
 const NavBar = () => {
+  const dropdownRef = useRef(null);
+  const [exploreActive, setExploreActive] = useState(false);
+  const [companyActive, setCompanyActive] = useState(false);
+  const [resourcesActive, setResourcesActive] = useState(false);
+
+  const clickExplore = () => {
+    setExploreActive(!exploreActive);
+    setCompanyActive(false);
+    setResourcesActive(false);
+  };
+
+  const clickCompany = () => {
+    setExploreActive(false);
+    setCompanyActive(!companyActive);
+    setResourcesActive(false);
+  };
+
+  const clickResources = () => {
+    setExploreActive(false);
+    setCompanyActive(false);
+    setResourcesActive(!resourcesActive);
+  };
+
   return (
     <header>
       <div className="logo__container">
@@ -18,11 +42,18 @@ const NavBar = () => {
       <nav className="nav">
         <ul className="nav__links">
           <li className="nav__link">
-            <a href="/">
+            <span onClick={clickExplore} className="nav__link__title">
               Explore
-              <img src={Arrow} alt="arrow" />
-            </a>
-            <ul className="nav__link__list">
+              <img
+                src={Arrow}
+                alt="arrow"
+                className={`arrow ${exploreActive ? "up" : ""}`}
+              />
+            </span>
+            <ul
+              className={`nav__link__list ${exploreActive ? "active" : ""}`}
+              ref={dropdownRef}
+            >
               <li>
                 <a href="/">I'm a Broker</a>
               </li>
@@ -38,11 +69,18 @@ const NavBar = () => {
             </ul>
           </li>
           <li className="nav__link">
-            <a href="/">
+            <span onClick={clickCompany} className="nav__link__title">
               Company
-              <img src={Arrow} alt="arrow" />
-            </a>
-            <ul className="nav__link__list">
+              <img
+                src={Arrow}
+                alt="arrow"
+                className={`arrow ${companyActive ? "up" : ""}`}
+              />
+            </span>
+            <ul
+              className={`nav__link__list ${companyActive ? "active" : ""}`}
+              ref={dropdownRef}
+            >
               <li>
                 <a href="/">About</a>
               </li>
@@ -55,11 +93,18 @@ const NavBar = () => {
             </ul>
           </li>
           <li className="nav__link">
-            <a href="/">
+            <span onClick={clickResources} className="nav__link__title">
               Resources
-              <img src={Arrow} alt="arrow" />
-            </a>
-            <ul className="nav__link__list">
+              <img
+                src={Arrow}
+                alt="arrow"
+                className={`arrow ${resourcesActive ? "up" : ""}`}
+              />
+            </span>
+            <ul
+              className={`nav__link__list ${resourcesActive ? "active" : ""}`}
+              ref={dropdownRef}
+            >
               <li>
                 <a href="/">Shop</a>
               </li>

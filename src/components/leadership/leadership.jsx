@@ -22,7 +22,9 @@ const Leadership = () => {
 
       <div className="leadership-grid">
         {hasError ? (
-          <div>We're sorry, but an error has occured loading the data.</div>
+          <div>
+            We're sorry, but an error has occured while loading the data.
+          </div>
         ) : (
           leadership?.map((leader) => (
             <a

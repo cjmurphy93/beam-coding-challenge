@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import brush2 from "../../images/brush2.png";
 import glasses2 from "../../images/glasses2.png";
 import VideoPlayer from "../../images/VideoPlayer.svg";
@@ -10,15 +9,17 @@ const Mission = () => {
       <h1 className="top-title">
         Dental benefits that reward you for brushing your teeth.
       </h1>
-      <iframe
-        src="https://player.vimeo.com/video/327864855?app_id=122963"
-        width="640"
-        height="360"
-        frameborder="0"
-        allow="autoplay; fullscreen; picture-in-picture"
-        allowfullscreen=""
-        title="Beam: Smarter Dental Care"
-      ></iframe>
+      <div className="video-container">
+        <iframe
+          src="https://player.vimeo.com/video/327864855?app_id=122963"
+          width="640"
+          height="360"
+          frameBorder="0"
+          allow="autoplay; fullscreen; picture-in-picture"
+          allowFullScreen=""
+          title="Beam: Smarter Dental Care"
+        ></iframe>
+      </div>
       <img src={VideoPlayer} alt="Player" className="vp" />
       <img src={brush2} alt="Beam Brush" className="brush" />
       <h1 className="section-title">Our Mission &amp; Vision</h1>
