@@ -1,7 +1,8 @@
-import React, { useRef } from "react";
+import React, { useState, useRef } from "react";
 import logo from "../../images/logo.svg";
 import Arrow from "../../images/Arrow.svg";
 import bars from "../../images/bars.svg";
+import close from "../../images/close.svg";
 import { useDetectOutsideClick } from "./useDetectOutsideClick";
 import "./nav_bar.scss";
 
@@ -19,6 +20,7 @@ const NavBar = () => {
     dropdownRef,
     false
   );
+  const [barsActive, setBarsActive] = useState(false);
 
   const clickExplore = () => {
     setExploreActive(!exploreActive);
@@ -38,18 +40,25 @@ const NavBar = () => {
     setResourcesActive(!resourcesActive);
   };
 
+  const clickBars = () => setBarsActive(!barsActive);
+
   return (
     <header>
       <div className="logo__container">
         <a href="/" className="logo__link">
           <img src={logo} className="nav__logo" alt="logo" />
         </a>
-        <a href="/" className="bars_container">
-          <img src={bars} alt="Open" className="bars" />
-        </a>
+        <div className="bars_container">
+          <img
+            onClick={clickBars}
+            src={barsActive ? close : bars}
+            alt="Open"
+            className="bars"
+          />
+        </div>
       </div>
 
-      <nav className="nav">
+      <nav className={`nav ${barsActive ? "open" : ""}`}>
         <ul className="nav__links">
           <li className="nav__link">
             <span onClick={clickExplore} className="nav__link__title">

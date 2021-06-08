@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Close</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Nav" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Min-Mobile-menu" transform="translate(-275.000000, -30.000000)">
+            <g id="Header">
+                <g id="Close" transform="translate(262.000000, 16.000000)">
+                    <rect id="Rectangle-5" x="0" y="0" width="48" height="48"></rect>
+                    <path d="M11.4140912,26 C10.6363488,26 10,25.3250557 10,24.5000413 C10,23.6750268 10.6363488,23 11.4140912,23 L36.1604546,23 C36.938197,23 37.5744681,23.6750268 37.5744681,24.5000413 C37.5744681,25.3250557 36.938197,26 36.1604546,26 L11.4140912,26 Z" id="Fill-1" fill="#00C9F0" transform="translate(23.787234, 24.500000) rotate(45.000000) translate(-23.787234, -24.500000) "></path>
+                    <path d="M11.4140912,26 C10.6363488,26 10,25.3250557 10,24.5000413 C10,23.6750268 10.6363488,23 11.4140912,23 L36.1604546,23 C36.938197,23 37.5744681,23.6750268 37.5744681,24.5000413 C37.5744681,25.3250557 36.938197,26 36.1604546,26 L11.4140912,26 Z" id="Fill-2" fill="#00C9F0" transform="translate(23.787234, 24.500000) rotate(-45.000000) translate(-23.787234, -24.500000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
