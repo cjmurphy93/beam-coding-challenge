@@ -1,14 +1,24 @@
-import React, { useState, useRef } from "react";
+import React, { useRef } from "react";
 import logo from "../../images/logo.svg";
 import Arrow from "../../images/Arrow.svg";
 import bars from "../../images/bars.svg";
+import { useDetectOutsideClick } from "./useDetectOutsideClick";
 import "./nav_bar.scss";
 
 const NavBar = () => {
   const dropdownRef = useRef(null);
-  const [exploreActive, setExploreActive] = useState(false);
-  const [companyActive, setCompanyActive] = useState(false);
-  const [resourcesActive, setResourcesActive] = useState(false);
+  const [exploreActive, setExploreActive] = useDetectOutsideClick(
+    dropdownRef,
+    false
+  );
+  const [companyActive, setCompanyActive] = useDetectOutsideClick(
+    dropdownRef,
+    false
+  );
+  const [resourcesActive, setResourcesActive] = useDetectOutsideClick(
+    dropdownRef,
+    false
+  );
 
   const clickExplore = () => {
     setExploreActive(!exploreActive);
