@@ -56,7 +56,7 @@ nav {
       text-decoration: none;
       color: #666666;
       display: block;
-      overflow: hidden;
+      // overflow: hidden;
       text-align: center;
       font-size: 0.875em;
       font-weight: 700;
@@ -127,6 +127,11 @@ nav {
       font-size: 1.5em;
       font-weight: 100;
       line-height: 20px;
+      box-sizing: border-box;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }
